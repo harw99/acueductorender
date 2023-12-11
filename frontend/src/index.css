@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,h2,h3,h4,h5,h6{
+    color: black;
+}
+
+body{
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+.Layout{
+    padding-top: 3em;
+    padding-left: 4em;
+}
+
+.btnStandard{
+    padding: .5em 0;
+    display: flex;
+    align-items: center;
+    gap: .3em;
+    width: fit-content;
+    background-color: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 0 4px grey;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 2em;
+    transition: all .7s;
+}
+.btnStandard:hover{
+    background-color: #c8edfd;
+}
+

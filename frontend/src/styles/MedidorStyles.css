@@ -1,0 +1,22 @@
+.formMedidor{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    font-size: 1.2em;
+}
+.formMedidor div {
+    display: flex;
+    gap: .6em;
+}
+.formMedidor div input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(103, 218, 231);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 0 2px grey;
+    background-color: aliceblue;
+}
+.formMedidor div b {
+    color: rgb(70, 70, 248);
+    font-size: 1.4em;
+}

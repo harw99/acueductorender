@@ -1,0 +1,128 @@
+.sectionLogin {
+    /* background-image: url('../assets/Img_bg.jpeg'); */
+    background: rgb(173, 173, 227);
+    background: linear-gradient(90deg, rgba(173, 173, 227, 1) 16%, rgba(110, 203, 222, 1) 100%);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+.formLogin {
+    background-color: #ddf3fec4;
+    box-shadow: 0 0 5px rgb(207, 205, 205);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    height: 570px;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formLogin input {
+    background: none;
+    outline: none;
+    font-size: 1.3em;
+    background: whitesmoke;
+    border-radius: 7px;
+    height: 2em;
+    box-shadow: 0 0 5px rgb(207, 205, 205);
+    padding-left: .7em;
+    width: 80%;
+    color: black;
+}
+
+.formLogin input::placeholder {
+    color: black;
+}
+
+.formLogin select {
+    background: none;
+    outline: none;
+    font-size: 1.3em;
+    background: whitesmoke;
+    border-radius: 7px;
+    height: 2em;
+    box-shadow: 0 0 5px rgb(207, 205, 205);
+    padding-left: .7em;
+    width: 80%;
+    color: black;
+}
+
+.formLogin select::placeholder {
+    color: black;
+}
+
+.formRight {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.formRight h3 {
+    font-size: 1.4em !important;
+    margin: 0;
+}
+
+.formRight input {
+    width: 80%;
+}
+
+.inputForm {
+    background: none;
+    outline: none;
+    font-size: 1.3em;
+    background: whitesmoke;
+    border-radius: 7px;
+    height: 2em;
+    box-shadow: 0 0 5px rgb(207, 205, 205);
+    padding-left: .7em;
+}
+
+.inputForm::placeholder {
+    color: black;
+    padding-left: .7em;
+}
+
+h3 {
+    font-size: 1.1em !important;
+    width: 80%;
+    margin: 0;
+    font-weight: bold !important;
+}
+
+@media (max-width: 800px) {
+    .formLogin {
+        justify-content: center;
+    }
+
+    .formRight {
+        width: 80vw;
+    }
+
+    .slider {
+        display: none;
+    }
+}
+
+.btnLogin {
+    background: #c8edfd !important;
+    box-shadow: 0 0 5px rgb(123, 123, 123);
+    padding: .3em 4em;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.info div {
+    background-color: #ddf3fec4;
+    box-shadow: 0 0 5px rgb(207, 205, 205);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    padding: .5em 1em;
+}

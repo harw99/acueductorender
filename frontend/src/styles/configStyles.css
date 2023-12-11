@@ -1,0 +1,18 @@
+.containerInputs{
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+}
+.containerInputs div{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.containerInputs div b{
+    color: rgb(70, 70, 248);
+    margin-right: .3em;
+}
+.containerInputs input{
+    width: fit-content;
+}
