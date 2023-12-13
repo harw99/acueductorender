@@ -1,8 +1,6 @@
 import { config } from 'dotenv';
 config();
 
-export const VITE_API_URL = process.env.VITE_API_URL || 'http://localhost:3000/api';
-
 export const URI_MONGO = process.env.URI_MONGO;
 
 export const PORT = 3000;
